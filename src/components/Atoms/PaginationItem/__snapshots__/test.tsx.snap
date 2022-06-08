@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PaginationItem /> should render a disabled button with pink background if is active 1`] = `
+<button
+  class="pagination-button active"
+  disabled=""
+>
+  1
+</button>
+`;
+
+exports[`<PaginationItem /> should render a disabled button with pink background if is active 2`] = `
+<button
+  class="pagination-button"
+>
+  1
+</button>
+`;
