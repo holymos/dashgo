@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render correctly 1`] = `
+<header
+  class="flex w-full max-w-1480 h-20 mx-auto mt-4 items-center px-6"
+>
+  <a
+    href="/"
+  >
+    <p
+      class="text-3xl font-bold tracking-tight w-64"
+    >
+      dashgo
+      <span
+        class="text-pink-500"
+      >
+        .
+      </span>
+    </p>
+  </a>
+  <label
+    class="flex flex-1 py-4 px-8 ml-6 max-w-400 self-center text-gray-200 relative bg-gray-800 rounded-full justify-between items-center"
+  >
+    <input
+      aria-label="search-box"
+      class="text-gray-50 bg-transparent hover:bg-gray-800 border-none focus:ring-0 placeholder:text-gray-500 px-4 mr-4 h-0"
+      placeholder="Buscar na plataforma"
+      type="text"
+    />
+    <svg
+      color="#616480"
+      cursor="pointer"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      style="color: rgb(97, 100, 128);"
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"
+        />
+      </g>
+    </svg>
+  </label>
+  <div
+    class="flex items-center ml-auto"
+  >
+    <div
+      class="flex gap-4 mx-8 pr-8 py-1 text-gray-300 border-r-1 border-gray-300"
+    >
+      <svg
+        fill="currentColor"
+        height="20"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g>
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M5 18h14v-6.969C19 7.148 15.866 4 12 4s-7 3.148-7 7.031V18zm7-16c4.97 0 9 4.043 9 9.031V20H3v-8.969C3 6.043 7.03 2 12 2zM9.5 21h5a2.5 2.5 0 1 1-5 0z"
+          />
+        </g>
+      </svg>
+      <svg
+        fill="currentColor"
+        height="20"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g>
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M14 14.252v2.09A6 6 0 0 0 6 22l-2-.001a8 8 0 0 1 10-7.748zM12 13c-3.315 0-6-2.685-6-6s2.685-6 6-6 6 2.685 6 6-2.685 6-6 6zm0-2c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm6 6v-3h2v3h3v2h-3v3h-2v-3h-3v-2h3z"
+          />
+        </g>
+      </svg>
+    </div>
+    <div
+      class="flex items-center"
+    >
+      <div
+        class="mr-4 text-right"
+      >
+        <p>
+          Moisés Pacífico
+        </p>
+        <p
+          class="text-gray-300 text-sm"
+        >
+          moises.pacifico@hotmail.com
+        </p>
+      </div>
+      <div
+        class="h-12 w-12 relative"
+      >
+        <span
+          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+        >
+          <img
+            alt="User image"
+            class="rounded-full"
+            data-nimg="fill"
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+          />
+          <noscript />
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+`;
