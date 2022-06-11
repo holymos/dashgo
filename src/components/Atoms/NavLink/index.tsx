@@ -16,7 +16,7 @@ export const NavLink: React.FC<NavLinkProps> = ({
     <Link href={link}>
       <a className="flex items-center hover:text-gray-200">
         {icon}
-        <span className="ml-4 font-medium text-2xl sm:text-sm">
+        <span className="ml-4 font-medium text-lg sm:text-sm">
           {description}
         </span>
       </a>
