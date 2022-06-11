@@ -3,7 +3,7 @@ import theme from "../../../styles/theme";
 
 export const SearchBox = () => {
   return (
-    <label className="flex flex-1 py-4 px-8 ml-6 max-w-400 self-center text-gray-200 relative bg-gray-800 rounded-full justify-between items-center">
+    <label className="hidden md:flex flex-1 py-4 px-8 ml-6 max-w-400 self-center text-gray-200 relative bg-gray-800 rounded-full justify-between items-center">
       <input
         type="text"
         aria-label="search-box"
