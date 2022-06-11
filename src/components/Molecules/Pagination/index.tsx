@@ -7,7 +7,7 @@ export const Pagination = () => {
         <strong>0</strong> - <strong>10</strong> de <strong>100</strong>
       </div>
 
-      <div className="flex gap-2">
+      <div className="flex space-x-2">
         <PaginationItem pageNumber={1} isCurrent />
         <PaginationItem pageNumber={2} />
         <PaginationItem pageNumber={3} />

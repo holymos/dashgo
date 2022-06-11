@@ -6,7 +6,7 @@ type InputProps = {
 
 export const Input: React.FC<InputProps> = ({ label, name, type = "text" }) => {
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-col space-y-2">
       <label htmlFor={name} className="text-gray-500">
         {label}
       </label>

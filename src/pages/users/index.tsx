@@ -15,7 +15,7 @@ const UserList = () => {
           <div className="flex mb-8 justify-between items-center">
             <h2 className="text-2xl font-normal">Usuários</h2>
 
-            <div className="flex gap-1 justify-center bg-pink-500 items-center p-2 rounded-md">
+            <div className="flex space-x-1 justify-center bg-pink-500 items-center p-2 rounded-md">
               <RiAddLine />
               <Link href="/users/create">
                 <a className="text-xs text-white">Criar novo usuário</a>
@@ -50,7 +50,7 @@ const UserList = () => {
                 </td>
                 <td>4 Jun 2021</td>
                 <td>
-                  <div className="flex gap-1 justify-center bg-purple-500 items-center p-2 rounded-md w-20">
+                  <div className="flex space-x-1 justify-center bg-purple-500 items-center p-2 rounded-md w-20">
                     <RiPencilLine />
                     <Link href="/">
                       <a className="text-xs text-white">Editar</a>
