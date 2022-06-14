@@ -4,16 +4,16 @@ import { ReactElement } from "react";
 type NavLinkProps = {
   icon: ReactElement;
   description: string;
-  link?: string;
+  href?: string;
 };
 
 export const NavLink: React.FC<NavLinkProps> = ({
   icon,
   description,
-  link = "/",
+  href = "/",
 }) => {
   return (
-    <Link href={link}>
+    <Link href={href}>
       <a className="flex items-center hover:text-gray-200">
         {icon}
         <span className="ml-4 font-medium text-lg sm:text-sm">

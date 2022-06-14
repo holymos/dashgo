@@ -13,10 +13,12 @@ export const Sidebar = () => {
       <div className="flex flex-col gap-12 items-start">
         <NavSection title="GERAL">
           <NavLink
+            href="/dashboard"
             description="Dashboard"
             icon={<RiDashboardLine fontSize={20} />}
           />
           <NavLink
+            href="/users"
             description="Usuários"
             icon={<RiContactsLine fontSize={20} />}
           />
@@ -24,10 +26,12 @@ export const Sidebar = () => {
 
         <NavSection title="AUTOMAÇÃO">
           <NavLink
+            href="/forms"
             description="Formulários"
             icon={<RiInputMethodLine fontSize={20} />}
           />
           <NavLink
+            href="/automation"
             description="Automação"
             icon={<RiGitMergeLine fontSize={20} />}
           />
