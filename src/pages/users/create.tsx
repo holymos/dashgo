@@ -14,7 +14,7 @@ const CreateUser = () => {
           <h2 className="text-lg font-normal">Criar usuário</h2>
           <div className="w-full h-[2px] bg-gray-700 my-6" />
 
-          <div className="flex space-y-8">
+          <div className="flex flex-col space-y-8">
             <div className="grid grid-cols-min-child-240 gap-8 w-full">
               <Input name="name" label="Nome" />
               <Input name="email" label="Email" type="email" />
