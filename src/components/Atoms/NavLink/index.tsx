@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { ReactElement } from "react";
+import { ActiveLink } from "../ActiveLink";
 
 type NavLinkProps = {
   icon: ReactElement;
@@ -13,13 +13,13 @@ export const NavLink: React.FC<NavLinkProps> = ({
   href = "/",
 }) => {
   return (
-    <Link href={href}>
+    <ActiveLink href={href}>
       <a className="flex items-center hover:text-gray-200">
         {icon}
         <span className="ml-4 font-medium text-lg sm:text-sm">
           {description}
         </span>
       </a>
-    </Link>
+    </ActiveLink>
   );
 };
